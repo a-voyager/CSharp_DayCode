@@ -21,7 +21,7 @@ namespace DayCode
     }
 
     class ListTest {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             #region 列表
             List<string> list = new List<string>();
