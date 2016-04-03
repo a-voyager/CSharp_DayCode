@@ -82,12 +82,30 @@ namespace DayCode
 
                 if (a != null)
                 {
-                    a.say();
+                    //a.say();
                 }
 
             }
 
-            Console.WriteLine(c.Age + " " + isAnimal);
+            //Console.WriteLine(c.Age + " " + isAnimal);
+
+            #endregion
+
+            #region 标志枚举
+            //取到蓝绿两个层
+            FlagEnum f = FlagEnum.blue | FlagEnum.green;
+            //判断是否存在蓝
+            //if ((f & FlagEnum.blue) > 0) //也可行
+            if ((f & FlagEnum.blue) == FlagEnum.blue)
+            {
+
+            }
+
+            //如果有红色则去掉 没有则加上
+            f = f ^ FlagEnum.red;
+
+            //字符串转枚举
+            FlagEnum ff = (FlagEnum)Enum.Parse(typeof(FlagEnum), "red");
 
             #endregion
 
