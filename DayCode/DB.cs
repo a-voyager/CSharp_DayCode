@@ -12,7 +12,7 @@ namespace DayCode
     /// </summary>
     class DB
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 第一步: 将MySQL.Datad.dll放到工程.sln同级目录
             // 第二步：“引用”选项中添加引用
