@@ -9,7 +9,7 @@ namespace DayCode
 {
     class FileHelper
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             #region 文件写操作
             //@可禁用转义字符，也可使用双反斜杠或者正斜杠
