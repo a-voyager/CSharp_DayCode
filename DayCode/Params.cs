@@ -19,7 +19,7 @@ namespace DayCode
             return sum;
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine(sum(1, 2, 3, 4, 5));
             Console.WriteLine(sum());
