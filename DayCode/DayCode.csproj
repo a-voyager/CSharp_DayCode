@@ -48,7 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="AnnyClass.cs" />
     <Compile Include="ClassT.cs" />
+    <Compile Include="DelegateDemo.cs" />
     <Compile Include="DB.cs" />
     <Compile Include="ExpandMethod.cs" />
     <Compile Include="FileHelper.cs" />

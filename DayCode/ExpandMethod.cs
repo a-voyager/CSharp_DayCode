@@ -11,7 +11,7 @@ namespace DayCode
     /// </summary>
     class ExpandMethod
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
             #region 扩展方法: 无侵入式的开发
@@ -22,8 +22,10 @@ namespace DayCode
         }
     }
 
-    public static class StringExpand {
-        public static int ToInt32(this string str) {
+    public static class StringExpand
+    {
+        public static int ToInt32(this string str)
+        {
             return int.Parse(str);
         }
     }
