@@ -15,11 +15,12 @@ namespace DayCode
         static string ToLower(string str) { return str.ToLower(); }
         static string AddStar(string str) { return str + "♥"; }
 
-        static string DealString(Func<string,string> dealFunc, string str) {
+        static string DealString(Func<string, string> dealFunc, string str)
+        {
             return dealFunc(str);
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
             #region usage
@@ -30,7 +31,7 @@ namespace DayCode
             #endregion
 
             #region 字符串数组处理
-            
+
             Console.WriteLine(DealString(ToUpper, "Abc"));
             Console.WriteLine(DealString(ToUpper, "Abc"));
             Console.WriteLine(DealString(AddStar, "Abc"));
