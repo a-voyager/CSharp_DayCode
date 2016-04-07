@@ -10,8 +10,6 @@ namespace DayCode
     class ThreadClass
     {
 
-
-
         public void test() { lock ("") { } }
 
         static void Main1(string[] args)
