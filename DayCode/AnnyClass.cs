@@ -17,7 +17,7 @@ namespace DayCode
         static void PrintHello() { Console.WriteLine("Hello"); }
 
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Say(PrintHello);
             // 匿名函数 适用于一次性调用

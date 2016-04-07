@@ -52,6 +52,7 @@
     <Compile Include="ClassT.cs" />
     <Compile Include="DelegateDemo.cs" />
     <Compile Include="DB.cs" />
+    <Compile Include="Event.cs" />
     <Compile Include="ExpandMethod.cs" />
     <Compile Include="FileHelper.cs" />
     <Compile Include="FlagEnum.cs" />
